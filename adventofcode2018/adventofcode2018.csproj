@@ -9,6 +9,7 @@
     <None Remove="Resources\day1_input" />
     <None Remove="Resources\day2_input" />
     <None Remove="Resources\day3_input" />
+    <None Remove="Resources\day4_input" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +20,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\day3_input">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\day4_input">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

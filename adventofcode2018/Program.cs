@@ -19,6 +19,9 @@ namespace adventofcode2018
             DayThree dayThree = new DayThree($@"{currentPath}\Resources\day3_input");
             Console.WriteLine($"Answer day 3: {dayThree.PartOne()}");
             Console.WriteLine($"Answer day 3b: {dayThree.PartTwo()}");
+            DayFour dayFour = new DayFour($@"{currentPath}\Resources\day4_input");
+            Console.WriteLine($"Answer day 4: {dayFour.PartOne()}");
+            Console.WriteLine($"Answer day 4b: {dayFour.PartTwo()}");
             Console.WriteLine("Press any key to quit...");
             Console.ReadKey(false);
         }
